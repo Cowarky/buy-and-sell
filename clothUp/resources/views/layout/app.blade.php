@@ -9,42 +9,38 @@
     <title>Clothup - buy modern clothes here</title>
 </head>
 <body>
-    <div class="navbar-container">
-        <div class="logo-container">
-            <!-- IMG -->
-            <!-- LOGO -->
-        </div>
-    
-        <div class = "navbar">
-            <div class="home-container">
-                <p>
-                    <a href="{{ url('/') }}">
+    <nav class="navbar-container">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qeJOG5X6Q6P5OqOqgxWpiAHaEq%26pid%3DApi&f=1&ipt=a38af0f4ceb5fa7cf5be97f1609af44406b89815151e0d5e1c949ed829c43a5d&ipo=images" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="">
                         Home
                     </a>
-                </p>
-            </div>
-            <div class="aboutus-container">
-                <p>
-                    <a href="{{ url('/aboutus') }}">
+                </li>
+                <li>
+                    <a href="">
                         About us
                     </a>
-                </p>
-            </div>
-            <div class="contactus-container">
-                <p>
-                    <a href="{{ url('/contactus') }}">
+                </li>
+                <li>
+                    <a href="">
                         Contact us
                     </a>
-                </p>
-            </div>
-            <div class="products-container">
-                <p>
-                    <a href="{{ url('/products') }}">
+                </li>
+                <li>
+                    <a href="/products">
                         Products
                     </a>
-                </p>
-            </div>
+                </li>
+            </ul>
         </div>
+        
+    </nav>
+    <div class="products">
+        Products
     </div>
 </body>
 </html>
