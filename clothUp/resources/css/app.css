@@ -1,0 +1,21 @@
+:root{
+    --dark_purple: #10002B;
+    --medium_purple: #240046;
+    --bright_purple: #E0AAFF;
+}
+
+html {
+    background-color: var(--dark_purple);
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: var(--dark_purple);
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: var(--dark_purple);
+    height: 20%;
+    width: 100%;
+}
