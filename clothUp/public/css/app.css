@@ -9,6 +9,8 @@ html {
     height: 100%;
     /* width: 100%; */
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: var(--bright_purple);
 }
 body {
     height: 100%;
@@ -41,7 +43,8 @@ li a{
     align-items: center;
     justify-content: space-between;
 }
-.products{
-    width: 90%;
-    height: 90%;
+/* Products page */
+.products-page-container{
+    width: 100%;
+    height: 80%;
 }
