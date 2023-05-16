@@ -39,7 +39,14 @@
                         Products
                     </a>
                 </li>
+                <button>
+                    Signup
+                </button>
+                <button>
+                    Signin
+                </button>
             </ul>
+            
         </div>
 
     </nav>

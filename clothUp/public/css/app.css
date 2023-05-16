@@ -18,6 +18,12 @@ body {
     margin: 0;
     /* position: absolute; */
 }
+ul button{
+    background-color: var(--dark_purple);
+    border: 0px;
+    color: var(--bright_purple);
+    cursor: pointer;
+}
 li{
     display: inline-block;
     list-style: none;

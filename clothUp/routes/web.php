@@ -21,5 +21,8 @@ Route::get('/', function () {
 // Route::get('/products', function () {
 //     return view('products');
 // });
+Route::get('/product', [customerController::class, 'AddToCart']);
 
 Route::get('/products', [customerController::class, 'index']);
+
+Route::get('/product/{ID}', [customerController::class, 'AddToCart']);
