@@ -20,11 +20,14 @@
                     {{$count}}
                    </p>
                    <div class="image-wrapper">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qeJOG5X6Q6P5OqOqgxWpiAHaEq%26pid%3DApi&f=1&ipt=a38af0f4ceb5fa7cf5be97f1609af44406b89815151e0d5e1c949ed829c43a5d&ipo=images"
-                    alt="">
+                    <img src="{{ asset('images/'.$prod->image) }}"
+                    alt="Image is not available">
                     <p>
                         {{ $prod->name}}
                     </p>
+                    <p>
+                        {{ $prod->description}}
+                    </p>    
                     <form action="{{ url('product/'.$prod->ID) }}" method="get">
                     <!-- {{$count++}} -->
                     <button type="submit"> Add to cart</button>

@@ -17,7 +17,7 @@ class customerController extends Controller
     }
     public function AddToCart($ID){
         $product = DB::select('select * from product where ID = '.$ID);
-        return view('products')->with('products',$product);
+        return view('product')->with('product',$product);
     }
 
 }

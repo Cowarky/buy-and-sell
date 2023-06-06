@@ -19,7 +19,8 @@
                     alt="">
                     <p>
                         {{ $product->name}}
-                    </p>               
+                    </p>  
+                      
                    </div>
                    
                 </div>
