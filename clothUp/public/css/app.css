@@ -29,6 +29,7 @@ ul button{
     color: var(--bright_purple);
     cursor: pointer;
     padding: 1%;
+    /* left: 0.5%; */
     font-weight: bold;
 }
 ul{
@@ -50,7 +51,7 @@ li{
 }
 li a{
     color: var(--bright_purple);
-    
+display: inline;
 }
 ul li{
     font-size: 12px;
@@ -101,9 +102,10 @@ hr{
 .category-wrapper{
     position: absolute;
     width: 15%;
-    height: 100%;
+    height: 70%;
     margin-left: 1%;
     padding-top: 0.5%;
+    padding-left: 0.5%;
     border-right: 1px solid var(--yellow);
     background-color: var(--medium_purple);
 }
@@ -134,9 +136,9 @@ hr{
 }
 .button-image-wrapper{
     position: absolute;
-    width: 7%;
+    width: 5%;
     height: 2.5%;
-    left: 1%;
+    left: 0.5%;
 }
 .button-image-wrapper img{
     width: 100%;
@@ -172,7 +174,7 @@ hr{
 }
 .cover-image-wrapper{
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: relative;
 }
 .cover-image-wrapper img{

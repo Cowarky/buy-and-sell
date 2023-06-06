@@ -13,6 +13,10 @@
             Products
         </h1>
         <div class="category-wrapper">
+            <h4>
+                Categories
+            </h4>
+            <hr>
             <ul>
                 <a onclick="ToggleList('Top-list',this)">
                     <div class="button-image-wrapper">
