@@ -30,11 +30,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        Contact us
-                    </a>
-                </li>
-                <li>
                     <a href="/products">
                         Products
                     </a>

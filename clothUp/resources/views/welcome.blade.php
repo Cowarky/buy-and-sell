@@ -23,6 +23,15 @@
                     <h2>
                         Your Modern Clothes Store
                     </h2>
+                    
+                </div>
+                <div class="landing-page-text-container">
+                    <h4>
+                        <a href="/products">
+                            View Clothes
+                        </a>
+                    </h4>
+                    
                 </div>
             </div>
                 
