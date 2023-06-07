@@ -19,5 +19,9 @@ class customerController extends Controller
         $product = DB::select('select * from product where ID = '.$ID);
         return view('product')->with('product',$product);
     }
+    public function viewCategory($category){
+        $products = DB::select("select * from product where category= '" . $category. "'");
+        return view('products')->with('products', $products);
+    }
 
 }

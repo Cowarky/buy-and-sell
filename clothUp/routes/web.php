@@ -26,3 +26,5 @@ Route::get('/product', [customerController::class, 'AddToCart']);
 Route::get('/products', [customerController::class, 'index']);
 
 Route::get('/product/{ID}', [customerController::class, 'AddToCart']);
+
+Route::get('/products/{category}', [customerController::class, 'viewCategory']);
